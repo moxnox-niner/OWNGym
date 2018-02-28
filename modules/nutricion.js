@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, ScrollView, TouchableOpacity} from 'react-native';
+import {Actions} from 'react-native-router-flux';
 export default class nutricion extends React.Component {
   render() {
     return (
@@ -17,51 +18,77 @@ export default class nutricion extends React.Component {
             <Text style={styles.subtitulos}>1800 Calorias</Text>
           </View>
         </View>
+      </TouchableOpacity>
 
-
+      <TouchableOpacity
+        onPress={ () =>Actions.info() }>
         <View style={styles.menu}>
           <Image style={styles.imagenes} source = {require('../imagenes/fondo.jpg')}></Image>
           <View style={styles.cajitas}>
             <Text style={styles.subtitulos}>2400 Calorias</Text>
           </View>
         </View>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        onPress={ () =>Actions.info() }>
         <View style={styles.menu}>
           <Image style={styles.imagenes} source = {require('../imagenes/fondo.jpg')}></Image>
           <View style={styles.cajitas}>
             <Text style={styles.subtitulos}>2000 Calorias</Text>
           </View>
         </View>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        onPress={ () =>Actions.info() }>
         <View style={styles.menu}>
           <Image style={styles.imagenes} source = {require('../imagenes/fondo.jpg')}></Image>
           <View style={styles.cajitas}>
             <Text style={styles.subtitulos}>2400 Calorias</Text>
           </View>
         </View>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        onPress={ () =>Actions.info() }>
         <View style={styles.menu}>
           <Image style={styles.imagenes} source = {require('../imagenes/fondo.jpg')}></Image>
           <View style={styles.cajitas}>
             <Text style={styles.subtitulos}>2800 Calorias</Text>
           </View>
         </View>
+      </TouchableOpacity>
+
+        <TouchableOpacity
+          onPress={ () =>Actions.info() }>
         <View style={styles.menu}>
           <Image style={styles.imagenes} source = {require('../imagenes/fondo.jpg')}></Image>
           <View style={styles.cajitas}>
             <Text style={styles.subtitulos}>3000 Calorias</Text>
           </View>
         </View>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        onPress={ () =>Actions.info() }>
         <View style={styles.menu}>
           <Image style={styles.imagenes} source = {require('../imagenes/fondo.jpg')}></Image>
           <View style={styles.cajitas}>
             <Text style={styles.subtitulos}>3200 Calorias</Text>
           </View>
         </View>
+      </TouchableOpacity>
+
+        <TouchableOpacity
+          onPress={ () =>Actions.info() }>
         <View style={styles.menu}>
           <Image style={styles.imagenes} source = {require('../imagenes/fondo.jpg')}></Image>
           <View style={styles.cajitas}>
             <Text style={styles.subtitulos}>3400 Calorias</Text>
           </View>
         </View>
-        </TouchableOpacity>
+      </TouchableOpacity>
       </ScrollView>
       </View>
     );
